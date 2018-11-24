@@ -1,5 +1,3 @@
-# Classes file
-
 class Book(object):
 	def __init__(self, props):
 		try:
@@ -13,3 +11,4 @@ class Book(object):
 
 		self.total_words = props['total_words']
 		self.unique_words = props['unique_words']
+		self.duplicates = props['duplicates']
