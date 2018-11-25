@@ -7,6 +7,11 @@ import re 		# start by loading a package we will be using, regular expressions
 
 list_of_words = ['call', 'me', 'ishmael', 'when'] # etc. (many more entries in the list)
 
+# ^ this is one way to create a 'list' data structure in python. You can initialise an
+# empty list with:
+# list_name = [] # or
+# list_name = list()
+
 # then we can access a word like this:
 
 print(list_of_words[2])    # will print 'ishmael'.
@@ -60,10 +65,10 @@ print(list_of_words)
 print('\nLoop through the words in our list:\n')
 for i, word in enumerate(list_of_words):  	# loop through the list
 	print(i, word)							# i is a counter, word is an element in the list
-	clean_word = word.strip(".,-'!?")		# remove . , - or ' etc if it comes at the end
+	clean_word = word.strip(".,-'!?")		# Remove . , - or ' etc if it comes at the end
 											# of 'word'. There's probably other punctuation
 											# or whitespace characters to remove here?										
-	clean_word = clean_word.lower()			# make it all lower case
+	clean_word = clean_word.lower()			# Make it all lower case
 	list_of_words[i] = clean_word			# replace 'word' in our new list with 'clean_word'
 	print(clean_word)
 
@@ -93,14 +98,14 @@ print("\nNumber of duplicates removed:\n")
 print(len(list_of_words)-len(unique_words))
 
 # the other thing we might want to do here is work out how many times each
-# duplicate word is repeated. Or maybe that's not very interesting...
+# duplicate word is repeated. Or maybe that's not very interesting...?
 
 # i think that's it. Next we want to try it on a real book.
 # We need to open the book then iterate over each line in it.
 # you can do something like:
 
 
-# filename = "path/to/book.epub"	# need quotation marks (so it's a string)
+# filename = "path/to/book.epub"	# need quotation marks (to make it a string)
 
 # book = open(filename) 			# This is what you would do for a .txt file, 
 									# but actually I'm not sure if you can just
@@ -110,14 +115,48 @@ print(len(list_of_words)-len(unique_words))
 
 # Later: i have tried this and actually reading in the epub is a bit harder 
 # than I thought. In the end I chose to pipe a command to the terminal which calls
-# calibre. calibre has a nice function "ebook-convert" which does exactly what we want.
+# calibre. calibre has a nice function "ebook-convert" which converts epub to txt
+# so that we can just read it in in a simple way.
+# There are other soutions but these seemed easiest. If you're stuck here ask me
+# because it's slightly tricky.
+
+
+# Now you loop through the lines of text in the book:
 
 # for line in book:
 #	/do stuff/
 # book.close()		# remember to close the file once you have extracted the 
 					# words in a list (or set) so it doesn't keep using your ram.
+					# important if you're going to loop over 100s of books.
 
 
+# if you want to loop through all the epubs in a directory, check out the
+# "glob.glob" command: https://docs.python.org/3/library/glob.html
+# (learning to read the documentation is quite important)
+# then you just wrap all the code you have for a single epub in another big for loop
+# where you loop over the different books:
 
-# once we have a list of all unique words,
+# for epub in <some glob command which lists all epubs in a folder>:	# outer loop
+
+	# < read in epub somehow as "book" >
+
+	# for line in book:		# inner loop
+	#	< do stuff>
+	# book.close()
+
+# if you're not sure how a command works, just type python3 in a terminal
+# and try it out. E.g. you could (start python3 and) type
+
+# import glob
+# glob.glob("./*") # or
+# glob.glob("./*.epub")
+
+# What type of object does "glob.glob" return? you could check with
+# type(glob.glob("./*"))
+
+# just start very simple and build it up slowly, and
+# always go back to very simple toy examples if something isn't behaving the way you
+# expect.
+
+# once we have a list of all unique words for various books,
 # we can start thinking about doing statistics.

@@ -7,42 +7,42 @@ from lxml import etree
 import classes
 from shutil import copyfile
 
-
+# find ./ -name *.epub -exec cp -prv '{}' './epubs/' ';'
 
 def create_book_instance(filename):
 
 	# note: this function will remove spaces from filenames in your epub directory
-
 	new_filename=filename.replace(" ", "_")
 	new_filename=new_filename.replace(".", "-")[:-5] + ".epub"
 	
-	if filename==new_filename:
+	if filename==new_filename:	# filename already had no spaces or dots in it.
 		pass
 	else:
-		copyfile(filename, new_filename)
-		os.remove(filename)
+		copyfile(filename, new_filename)	# otherwise rename it by copying it and
+		os.remove(filename)					# deleting the original
 		filename=new_filename
-	metadata = get_metadata(filename)
+	metadata = get_metadata(filename)		# call the other function defined in this file
 
-	# Use the Calibre function 'ebook-convert' to convert the .epub to .txt:
+	# Use the Calibre program 'ebook-convert' to convert the .epub to .txt:
 	txt_path = filename.split(".")[0] + ".txt"
 	short_name = filename.split("/")[-1].split(".")[0]
 	if not os.path.exists(txt_path):
 		print("Converting {}.epub to .txt".format(short_name))
-		bashCommand = "ebook-convert test/{0}.epub test/{0}.txt".format(short_name)
-		# pipe the command to bash:
+		bashCommand = "ebook-convert {0} {1}".format(filename, txt_path)
+		# we have to pipe the command to bash (i.e. to the terminal) to execute it:
 		process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
 		output, error = process.communicate()
 
 	# start getting the list of words in the book
 	all_words=list()
-	with open(txt_path, "r") as book:
+	with open(txt_path, "r", encoding="utf-8") as book:
 		for line in book:
 			# split on spaces and strip trailing punctuation
 			line = line.split(" ")
 			words_in_line = [word.strip(".,!?'\t\n").lower() for word in line]
 			if words_in_line!=['']:
-				all_words.append(words_in_line)
+				all_words.append(words_in_line)		# append the words to our list,
+													# unless the line was blank
 
 	# 'all_words' is a list of (sub-)lists. We just want a list of strings
 	# [each string being a (non-unqiue) word in the book], so we flatten it 
@@ -63,6 +63,7 @@ def create_book_instance(filename):
 			book_attributes[x] = metadata[x]
 		except KeyError:
 			pass
+	book_attributes['file_name']=short_name + ".epub"
 	book_attributes['total_words']=len(all_words)
 	book_attributes['unique_words']=len(unique_words)
 	book_attributes['duplicates']=len(all_words)-len(unique_words)

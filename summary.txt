@@ -1,0 +1,1272 @@
+Title: Catch-22
+Author: Joseph Heller
+Length: 176275 words
+Number of unique words: 16564
+Percentage unique: 9.4%
+
+Title: The Complete Novels Of George Orwell
+Author: George Orwell
+Length: 494762 words
+Number of unique words: 31840
+Percentage unique: 6.4%
+
+Title: Wheel of Time [06]: Lord of Chaos
+Author: Robert Jordan
+Length: 405416 words
+Number of unique words: 20953
+Percentage unique: 5.2%
+
+Title: Harry Potter and the Goblet of Fire
+Author: J.K. Rowling
+Length: 194810 words
+Number of unique words: 15486
+Percentage unique: 7.9%
+
+Title: Count of Monte Cristo (abridged) (Barnes & Noble Classics Series)
+Author: Alexandre Dumas
+Length: 199686 words
+Number of unique words: 16252
+Percentage unique: 8.1%
+
+Title: Ringworld's Children
+Author: Larry Niven
+Length: 72414 words
+Number of unique words: 8989
+Percentage unique: 12.4%
+
+Title: The Great Hunt
+Author: Robert Jordan
+Length: 269780 words
+Number of unique words: 15221
+Percentage unique: 5.6%
+
+Title: Harry Potter and the Deathly Hallows
+Author: J.K. Rowling
+Length: 200678 words
+Number of unique words: 16758
+Percentage unique: 8.4%
+
+Title: Waste Land and Other Poems
+Author: T. S. Eliot
+Length: 30286 words
+Number of unique words: 8249
+Percentage unique: 27.2%
+
+Title: Odyssey (Barnes & Noble Classics Series)
+Author: Homer
+Length: 131579 words
+Number of unique words: 11760
+Percentage unique: 8.9%
+
+Title: The Curious Incident of the Dog in the Night-Time
+Author: Mark Haddon
+Length: 63387 words
+Number of unique words: 5126
+Percentage unique: 8.1%
+
+Title: The Stars My Destination
+Author: Alfred Bester
+Length: 68842 words
+Number of unique words: 9040
+Percentage unique: 13.1%
+
+Title: Good Omens: The Nice and Accurate Prophecies of Agnes Nutter, Witch
+Author: Neil Gaiman
+Length: 106733 words
+Number of unique words: 14082
+Percentage unique: 13.2%
+
+Title: Childhood's End
+Author: Arthur C. Clarke
+Length: 70271 words
+Number of unique words: 9199
+Percentage unique: 13.1%
+
+Title: The Omnivore's Dilemma
+Author: Michael Pollan
+Length: 66904 words
+Number of unique words: 7696
+Percentage unique: 11.5%
+
+Title: Wheel of Time [10]: Crossroads of Twilight
+Author: Robert Jordan
+Length: 273682 words
+Number of unique words: 16816
+Percentage unique: 6.1%
+
+Title: The 120 Days of Sodom
+Author: Marquis De Sade
+Length: 174834 words
+Number of unique words: 15387
+Percentage unique: 8.8%
+
+Title: Harry Potter and the Chamber of Secrets
+Author: J.K. Rowling
+Length: 86997 words
+Number of unique words: 9766
+Percentage unique: 11.2%
+
+Title: The confusion
+Author: Neal Stephenson
+Length: 340553 words
+Number of unique words: 29980
+Percentage unique: 8.8%
+
+Title: A Separate War and Other Stories
+Author: Joe Haldeman
+Length: 13770 words
+Number of unique words: 3338
+Percentage unique: 24.2%
+
+Title: Cosmos
+Author: Carl Sagan
+Length: 127272 words
+Number of unique words: 13558
+Percentage unique: 10.7%
+
+Title: The Hitchhiker's Guide to the Galaxy
+Author: Douglas Adams
+Length: 74680 words
+Number of unique words: 9801
+Percentage unique: 13.1%
+
+Title: The Selfish Gene
+Author: Richard Dawkins
+Length: 117528 words
+Number of unique words: 9580
+Percentage unique: 8.2%
+
+Title: William Shakespeare: The Complete Works 2nd Edition
+Author: William Shakespeare
+Length: 1121980 words
+Number of unique words: 50030
+Percentage unique: 4.5%
+
+Title: Harry Potter and the Order of the Phoenix
+Author: J.K. Rowling
+Length: 261572 words
+Number of unique words: 18887
+Percentage unique: 7.2%
+
+Title: The Hobbit: Or There and Back Again
+Author: J. R. R. Tolkien
+Length: 96629 words
+Number of unique words: 8871
+Percentage unique: 9.2%
+
+Title: Dune
+Author: Frank Herbert
+Length: 205180 words
+Number of unique words: 19420
+Percentage unique: 9.5%
+
+Title: A Storm of Swords
+Author: George R. R. Martin
+Length: 422372 words
+Number of unique words: 22196
+Percentage unique: 5.3%
+
+Title: Notes From Underground
+Author: Fyodor Dostoyevsky
+Length: 51293 words
+Number of unique words: 7402
+Percentage unique: 14.4%
+
+Title: Pale Blue Dot: A Vision of the Human Future in Space
+Author: Carl Sagan
+Length: 101533 words
+Number of unique words: 13007
+Percentage unique: 12.8%
+
+Title: The Stranger
+Author: Albert Camus
+Length: 35730 words
+Number of unique words: 4973
+Percentage unique: 13.9%
+
+Title: The Handmaid's Tale
+Author: Margaret Atwood
+Length: 97025 words
+Number of unique words: 10381
+Percentage unique: 10.7%
+
+Title: Towers of Midnight
+Author: Robert Jordan
+Length: 333282 words
+Number of unique words: 19901
+Percentage unique: 6.0%
+
+Title: The Drawing of the Three
+Author: Stephen King
+Length: 130347 words
+Number of unique words: 12930
+Percentage unique: 9.9%
+
+Title: The Fountainhead
+Author: Ayn Rand
+Length: 320106 words
+Number of unique words: 20746
+Percentage unique: 6.5%
+
+Title: The Catcher in the Rye
+Author: J.D. Salinger
+Length: 73856 words
+Number of unique words: 5654
+Percentage unique: 7.7%
+
+Title: The Road
+Author: Cormac McCarthy
+Length: 58894 words
+Number of unique words: 4878
+Percentage unique: 8.3%
+
+Title: A confederacy of dunces
+Author: John Kennedy Toole
+Length: 127816 words
+Number of unique words: 14188
+Percentage unique: 11.1%
+
+Title: Snow Crash
+Author: Neal Stephenson
+Length: 159065 words
+Number of unique words: 17321
+Percentage unique: 10.9%
+
+Title: Tao te ching: annotated & explained
+Author: Derek Lin
+Length: 38896 words
+Number of unique words: 6116
+Percentage unique: 15.7%
+
+Title: A Suitable Boy
+Author: Vikram Seth
+Length: 106293 words
+Number of unique words: 11172
+Percentage unique: 10.5%
+
+Title: King Lear
+Author: William Shakespeare
+Length: 105187 words
+Number of unique words: 17206
+Percentage unique: 16.4%
+
+Title: John Dies at the End
+Author: David Wong
+Length: 154034 words
+Number of unique words: 13623
+Percentage unique: 8.8%
+
+Title: All Quiet on the Western Front
+Author: Erich Maria Remarque
+Length: 63191 words
+Number of unique words: 8001
+Percentage unique: 12.7%
+
+Title: Lovecraft's Fiction Volume II, 1926-1928
+Author: Howard Phillips Lovecraft
+Length: 174891 words
+Number of unique words: 17329
+Percentage unique: 9.9%
+
+Title: Wheel of Time [03]: The Dragon Reborn
+Author: Robert Jordan
+Length: 253167 words
+Number of unique words: 15117
+Percentage unique: 6.0%
+
+Title: The Long Walk
+Author: Stephen King
+Length: 87846 words
+Number of unique words: 10779
+Percentage unique: 12.3%
+
+Title: The Master and Margarita
+Author: Mikhail Bulgakov
+Length: 158318 words
+Number of unique words: 15583
+Percentage unique: 9.8%
+
+Title: Zen and the Art of Motorcycle Maintenance: An Inquiry Into Values
+Author: Robert M. Pirsig
+Length: 141732 words
+Number of unique words: 12156
+Percentage unique: 8.6%
+
+Title: The prince
+Author: Niccolò Machiavelli
+Length: 32660 words
+Number of unique words: 4115
+Percentage unique: 12.6%
+
+Title: We Need to Talk about Kevin
+Author: Lionel Shriver
+Length: 176328 words
+Number of unique words: 20691
+Percentage unique: 11.7%
+
+Title: Cloud Atlas
+Author: David Mitchell
+Length: 163105 words
+Number of unique words: 25783
+Percentage unique: 15.8%
+
+Title: On the Road
+Author: Jack Kerouac
+Length: 116562 words
+Number of unique words: 12510
+Percentage unique: 10.7%
+
+Title: The Chrysalids
+Author: Wyndham, John
+Length: 69175 words
+Number of unique words: 6999
+Percentage unique: 10.1%
+
+Title: The Brothers Karamazov
+Author: Fyodor Dostoevsky
+Length: 402682 words
+Number of unique words: 20504
+Percentage unique: 5.1%
+
+Title: Sophie's World: A Novel About the History of Philosophy
+Author: Jostein Gaarder
+Length: 164471 words
+Number of unique words: 14590
+Percentage unique: 8.9%
+
+Title: Quicksilver
+Author: Neal Stephenson
+Length: 389902 words
+Number of unique words: 34684
+Percentage unique: 8.9%
+
+Title: Flowers for Algernon
+Author: Daniel Keyes
+Length: 85046 words
+Number of unique words: 8478
+Percentage unique: 10.0%
+
+Title: The Return of the King
+Author: J. R. R. Tolkien
+Length: 209712 words
+Number of unique words: 18335
+Percentage unique: 8.7%
+
+Title: The Communist Manifesto
+Author: Karl Marx
+Length: 14467 words
+Number of unique words: 2847
+Percentage unique: 19.7%
+
+Title: Anansi Boys
+Author: Neil Gaiman
+Length: 113815 words
+Number of unique words: 11595
+Percentage unique: 10.2%
+
+Title: Charles.Bukowski.Women.1978.eBook-KG
+Author: Charles Bukowski
+Length: 96565 words
+Number of unique words: 8778
+Percentage unique: 9.1%
+
+Title: The Waste Lands
+Author: King, Stephen
+Length: 179276 words
+Number of unique words: 16593
+Percentage unique: 9.3%
+
+Title: A Feast for Crows
+Author: George R. R. Martin
+Length: 306485 words
+Number of unique words: 19297
+Percentage unique: 6.3%
+
+Title: The Scar
+Author: China Mieville
+Length: 206080 words
+Number of unique words: 17861
+Percentage unique: 8.7%
+
+Title: Song of Susannah
+Author: Stephen King
+Length: 127053 words
+Number of unique words: 14414
+Percentage unique: 11.3%
+
+Title: Surely You're Joking, Mr. Feynman!
+Author: Feynman, Richard
+Length: 126146 words
+Number of unique words: 11393
+Percentage unique: 9.0%
+
+Title: The Odyssey
+Author: Homer
+Length: 173920 words
+Number of unique words: 15986
+Percentage unique: 9.2%
+
+Title: A Short History of Nearly Everything
+Author: Bill Bryson
+Length: 202816 words
+Number of unique words: 21766
+Percentage unique: 10.7%
+
+Title: The Darkness That Comes Before
+Author: R. Scott Bakker
+Length: 174603 words
+Number of unique words: 16571
+Percentage unique: 9.5%
+
+Title: A Canticle For Leibowitz
+Author: Walter M. Miller
+Length: 104206 words
+Number of unique words: 14580
+Percentage unique: 14.0%
+
+Title: Second Foundation
+Author: Isaac Asimov
+Length: 72490 words
+Number of unique words: 9337
+Percentage unique: 12.9%
+
+Title: Lord of the Flies
+Author: William Golding
+Length: 62167 words
+Number of unique words: 7465
+Percentage unique: 12.0%
+
+Title: How to Win Friends and Influence People
+Author: Dale Carnegie
+Length: 79359 words
+Number of unique words: 9550
+Percentage unique: 12.0%
+
+Title: The Eye of the World
+Author: Robert Jordan
+Length: 314001 words
+Number of unique words: 16655
+Percentage unique: 5.3%
+
+Title: The Pillars of the Earth
+Author: Ken Follett
+Length: 403622 words
+Number of unique words: 21050
+Percentage unique: 5.2%
+
+Title: The Forever War
+Author: Joe Haldeman
+Length: 76762 words
+Number of unique words: 10712
+Percentage unique: 14.0%
+
+Title: One Flew Over the Cuckoo's Nest
+Author: Ken Kesey
+Length: 112770 words
+Number of unique words: 11072
+Percentage unique: 9.8%
+
+Title: Life, the Universe and Everything
+Author: Douglas Adams
+Length: 53985 words
+Number of unique words: 7721
+Percentage unique: 14.3%
+
+Title: A Briefer History of Time
+Author: Stephen W. Hawking
+Length: 43288 words
+Number of unique words: 4592
+Percentage unique: 10.6%
+
+Title: Hyperion
+Author: Dan Simmons
+Length: 170978 words
+Number of unique words: 17667
+Percentage unique: 10.3%
+
+Title: Perdido Street Station
+Author: China Miéville
+Length: 230900 words
+Number of unique words: 19834
+Percentage unique: 8.6%
+
+Title: Wheel of Time [07]: A Crown of Swords
+Author: Robert Jordan
+Length: 297280 words
+Number of unique words: 17952
+Percentage unique: 6.0%
+
+Title: The Great Gatsby
+Author: Fitzgerald, F. Scott
+Length: 48437 words
+Number of unique words: 7526
+Percentage unique: 15.5%
+
+Title: Ringworld
+Author: Larry Niven
+Length: 107325 words
+Number of unique words: 11564
+Percentage unique: 10.8%
+
+Title: Moby Dick
+Author: Herman Melville
+Length: 252022 words
+Number of unique words: 29129
+Percentage unique: 11.6%
+
+Title: Wheel of Time [08]: The Path of Daggers
+Author: Robert Jordan
+Length: 228666 words
+Number of unique words: 15498
+Percentage unique: 6.8%
+
+Title: Slaughterhouse-Five
+Author: Kurt Vonnegut
+Length: 49883 words
+Number of unique words: 7449
+Percentage unique: 14.9%
+
+Title: The United States Constitution
+Author: James Madison
+Length: 9025 words
+Number of unique words: 1652
+Percentage unique: 18.3%
+
+Title: Ulysses
+Author: James Joyce
+Length: 265073 words
+Number of unique words: 33530
+Percentage unique: 12.6%
+
+Title: Rendezvous and Rama
+Author: Arthur C. Clarke
+Length: 69431 words
+Number of unique words: 8688
+Percentage unique: 12.5%
+
+Title: The Game
+Author: Neil Strauss
+Length: 146581 words
+Number of unique words: 14722
+Percentage unique: 10.0%
+
+Title: Gravity's Rainbow
+Author: Thomas Pynchon
+Length: 333538 words
+Number of unique words: 35537
+Percentage unique: 10.7%
+
+Title: Foundation
+Author: Isaac Asimov
+Length: 70253 words
+Number of unique words: 9890
+Percentage unique: 14.1%
+
+Title: The God delusion
+Author: Richard Dawkins
+Length: 141785 words
+Number of unique words: 17714
+Percentage unique: 12.5%
+
+Title: Mostly harmless
+Author: Douglas Adams
+Length: 64819 words
+Number of unique words: 6964
+Percentage unique: 10.7%
+
+Title: The Dark Tower VII
+Author: Stephen King
+Length: 275243 words
+Number of unique words: 23454
+Percentage unique: 8.5%
+
+Title: So Long, and Thanks for All the Fish
+Author: Douglas Adams
+Length: 44876 words
+Number of unique words: 7060
+Percentage unique: 15.7%
+
+Title: The Dispossessed
+Author: Ursula K. Le Guin
+Length: 122764 words
+Number of unique words: 13560
+Percentage unique: 11.0%
+
+Title: Haunted
+Author: Chuck Palahniuk
+Length: 116898 words
+Number of unique words: 12158
+Percentage unique: 10.4%
+
+Title: The Gunslinger
+Author: Stephen King
+Length: 68053 words
+Number of unique words: 9622
+Percentage unique: 14.1%
+
+Title: The Chomsky Reader
+Author: Noam Chomsky
+Length: 200155 words
+Number of unique words: 19649
+Percentage unique: 9.8%
+
+Title: Don Quixote
+Author: Miguel De Cervantes Saavedra
+Length: 425598 words
+Number of unique words: 22339
+Percentage unique: 5.2%
+
+Title: The Diamond Age
+Author: Neal Stephenson
+Length: 187209 words
+Number of unique words: 19069
+Percentage unique: 10.2%
+
+Title: The Stand
+Author: Stephen King
+Length: 470974 words
+Number of unique words: 29829
+Percentage unique: 6.3%
+
+Title: Red Mars
+Author: Kim Stanley Robinson
+Length: 212468 words
+Number of unique words: 18483
+Percentage unique: 8.7%
+
+Title: The Dark Tower V
+Author: Stephen King
+Length: 244253 words
+Number of unique words: 20821
+Percentage unique: 8.5%
+
+Title: The kite runner
+Author: Khaled Hosseini
+Length: 107349 words
+Number of unique words: 11488
+Percentage unique: 10.7%
+
+Title: Wheel of Time [05]: The Fires of Heaven
+Author: Robert Jordan
+Length: 355583 words
+Number of unique words: 19417
+Percentage unique: 5.5%
+
+Title: Lovecraft's Fiction Volume IV, 1932-1936
+Author: Howard Phillips Lovecraft
+Length: 172661 words
+Number of unique words: 16572
+Percentage unique: 9.6%
+
+Title: The Subtle Knife
+Author: Philip Pullman
+Length: 100165 words
+Number of unique words: 9435
+Percentage unique: 9.4%
+
+Title: The Gathering Storm
+Author: Robert Jordan
+Length: 304792 words
+Number of unique words: 19000
+Percentage unique: 6.2%
+
+Title: Harry Potter and the Prisoner of Azkaban
+Author: J.K. Rowling
+Length: 109824 words
+Number of unique words: 10882
+Percentage unique: 9.9%
+
+Title: The Singularity Is Near: When Humans Transcend Biology
+Author: Ray Kurzweil
+Length: 225510 words
+Number of unique words: 22551
+Percentage unique: 10.0%
+
+Title: War and Peace
+Author: Leo Tolstoy
+Length: 562341 words
+Number of unique words: 27239
+Percentage unique: 4.8%
+
+Title: Cat's Cradle
+Author: Kurt Vonnegut
+Length: 53669 words
+Number of unique words: 8503
+Percentage unique: 15.8%
+
+Title: Ishmael
+Author: Daniel Quinn
+Length: 63509 words
+Number of unique words: 7388
+Percentage unique: 11.6%
+
+Title: Kafka on the Shore
+Author: Haruki Murakami
+Length: 175631 words
+Number of unique words: 13167
+Percentage unique: 7.5%
+
+Title: Watership Down
+Author: Richard Adams
+Length: 165034 words
+Number of unique words: 11237
+Percentage unique: 6.8%
+
+Title: The Origin of Species
+Author: Charles Darwin
+Length: 209196 words
+Number of unique words: 12430
+Percentage unique: 5.9%
+
+Title: Hamlet
+Author: William Shakespeare
+Length: 107433 words
+Number of unique words: 15993
+Percentage unique: 14.9%
+
+Title: The Moon is a Harsh Mistress
+Author: Robert A. Heinlein
+Length: 118526 words
+Number of unique words: 15124
+Percentage unique: 12.8%
+
+Title: Foundation's Edge
+Author: Isaac Asimov
+Length: 135869 words
+Number of unique words: 13491
+Percentage unique: 9.9%
+
+Title: Blood Meridian
+Author: Cormac McCarthy
+Length: 118086 words
+Number of unique words: 10601
+Percentage unique: 9.0%
+
+Title: Green Mars
+Author: Kim Stanley Robinson
+Length: 238316 words
+Number of unique words: 19163
+Percentage unique: 8.0%
+
+Title: American Gods
+Author: Neil Gaiman
+Length: 184308 words
+Number of unique words: 16671
+Percentage unique: 9.0%
+
+Title: Siddhartha
+Author: Hermann Hesse
+Length: 43751 words
+Number of unique words: 6111
+Percentage unique: 14.0%
+
+Title: The Ringworld Engineers
+Author: Larry Niven
+Length: 104475 words
+Number of unique words: 11011
+Percentage unique: 10.5%
+
+Title: Holy Bible - The Illustrated King James Bible (KJV): The Old Testament, The New Testament, and Deuterocanonical literature
+Author: MobileReference
+Length: 986323 words
+Number of unique words: 21826
+Percentage unique: 2.2%
+
+Title: The Fellowship of the Ring
+Author: J. R. R. Tolkien
+Length: 192891 words
+Number of unique words: 13839
+Percentage unique: 7.2%
+
+Title: The Brothers Karamazov
+Author: Fyodor Dostoevsky
+Length: 383174 words
+Number of unique words: 23011
+Percentage unique: 6.0%
+
+Title: Forever Free
+Author: Joe Haldeman
+Length: 63885 words
+Number of unique words: 9172
+Percentage unique: 14.4%
+
+Title: Stranger in a Strange Land
+Author: Robert A. Heinlein
+Length: 213760 words
+Number of unique words: 18385
+Percentage unique: 8.6%
+
+Title: The Eyes of the Dragon
+Author: Stephen King
+Length: 103691 words
+Number of unique words: 9907
+Percentage unique: 9.6%
+
+Title: The Grapes of Wrath
+Author: John Steinbeck
+Length: 193364 words
+Number of unique words: 16255
+Percentage unique: 8.4%
+
+Title: Crime and Punishment (Barnes & Noble Classics Series)
+Author: Fyodor Dostoevsky
+Length: 222593 words
+Number of unique words: 15738
+Percentage unique: 7.1%
+
+Title: Lies My Teacher Told Me About Christopher Columbus: What Your History Books Got Wrong
+Author: James W. Loewen
+Length: 118200 words
+Number of unique words: 15822
+Percentage unique: 13.4%
+
+Title: A people's history of the United States: 1492-present
+Author: Howard Zinn
+Length: 266907 words
+Number of unique words: 24199
+Percentage unique: 9.1%
+
+Title: Basic Writings of Nietzsche
+Author: Friedrich Nietzsche
+Length: 272476 words
+Number of unique words: 29817
+Percentage unique: 10.9%
+
+Title: The power of myth
+Author: Joseph Campbell
+Length: 99023 words
+Number of unique words: 8169
+Percentage unique: 8.2%
+
+Title: Foundation and Empire
+Author: Isaac Asimov
+Length: 77497 words
+Number of unique words: 10514
+Percentage unique: 13.6%
+
+Title: Walden and on the Duty of Civil Disobedience
+Author: Henry David Thoreau
+Length: 139686 words
+Number of unique words: 16635
+Percentage unique: 11.9%
+
+Title: Brave New World Revisited
+Author: Aldous Huxley
+Length: 34383 words
+Number of unique words: 6125
+Percentage unique: 17.8%
+
+Title: Thus Spake Zarathustra
+Author: Friedrich Nietzsche
+Length: 110578 words
+Number of unique words: 13848
+Percentage unique: 12.5%
+
+Title: Cryptonomicon
+Author: Neal Stephenson
+Length: 408156 words
+Number of unique words: 32837
+Percentage unique: 8.0%
+
+Title: The mote in God's eye
+Author: Larry Niven
+Length: 195595 words
+Number of unique words: 17239
+Percentage unique: 8.8%
+
+Title: A Fire Upon the Deep
+Author: Vernor Vinge
+Length: 287260 words
+Number of unique words: 24906
+Percentage unique: 8.7%
+
+Title: Breakfast of Champions
+Author: Kurt Vonnegut
+Length: 59039 words
+Number of unique words: 7946
+Percentage unique: 13.5%
+
+Title: Forward the Foundation
+Author: Isaac Asimov
+Length: 182849 words
+Number of unique words: 11863
+Percentage unique: 6.5%
+
+Title: American Psycho
+Author: Bret Easton Ellis
+Length: 143499 words
+Number of unique words: 17194
+Percentage unique: 12.0%
+
+Title: Adventures of Huckleberry Finn
+Author: Mark Twain
+Length: 132262 words
+Number of unique words: 13504
+Percentage unique: 10.2%
+
+Title: Heart of Darkness and Selected Short Fiction (Barnes & Noble Classics Series)
+Author: Joseph Conrad
+Length: 106705 words
+Number of unique words: 14725
+Percentage unique: 13.8%
+
+Title: The Shadow of the Torturer
+Author: Gene Wolfe
+Length: 99105 words
+Number of unique words: 11034
+Percentage unique: 11.1%
+
+Title: Sex, Drugs, and Cocoa Puffs
+Author: Chuck Klosterman
+Length: 81411 words
+Number of unique words: 12633
+Percentage unique: 15.5%
+
+Title: The Golden Compass
+Author: Philip Pullman
+Length: 117295 words
+Number of unique words: 11185
+Percentage unique: 9.5%
+
+Title: Fight Club: a novel
+Author: Chuck Palahniuk
+Length: 51464 words
+Number of unique words: 6085
+Percentage unique: 11.8%
+
+Title: Lovecraft's Fiction Volume III, 1928-1931
+Author: Howard Phillips Lovecraft
+Length: 175633 words
+Number of unique words: 17160
+Percentage unique: 9.8%
+
+Title: Do Androids Dream of Electric Sheep?
+Author: Philip K. Dick
+Length: 63365 words
+Number of unique words: 9474
+Percentage unique: 15.0%
+
+Title: Ender’s Game
+Author: Orson Scott Card
+Length: 106602 words
+Number of unique words: 9825
+Percentage unique: 9.2%
+
+Title: The autobiography of Malcolm X
+Author: Malcolm X
+Length: 192330 words
+Number of unique words: 17898
+Percentage unique: 9.3%
+
+Title: The Old Man and the Sea
+Author: Ernest Hemingway
+Length: 26607 words
+Number of unique words: 2935
+Percentage unique: 11.0%
+
+Title: Mere Christianity: a revised and amplified edition, with a new introduction, of the three books, Broadcast talks, Christian behaviour, and Beyond personality
+Author: C. S. Lewis
+Length: 67929 words
+Number of unique words: 6196
+Percentage unique: 9.1%
+
+Title: Prelude to Foundation
+Author: Isaac Asimov
+Length: 131072 words
+Number of unique words: 12580
+Percentage unique: 9.6%
+
+Title: Declaration of Independence
+Author: Thomas Jefferson
+Length: 2601 words
+Number of unique words: 1031
+Percentage unique: 39.6%
+
+Title: Starship Troopers
+Author: Robert A. Heinlein
+Length: 88348 words
+Number of unique words: 9890
+Percentage unique: 11.2%
+
+Title: Wheel of Time [09]: Winter's Heart
+Author: Robert Jordan
+Length: 244850 words
+Number of unique words: 15714
+Percentage unique: 6.4%
+
+Title: The Amber Spyglass
+Author: Philip Pullman
+Length: 159814 words
+Number of unique words: 12423
+Percentage unique: 7.8%
+
+Title: The Two Towers
+Author: J. R. R. Tolkien
+Length: 157279 words
+Number of unique words: 11861
+Percentage unique: 7.5%
+
+Title: The Greatest Show on Earth: The Evidence for Evolution
+Author: RICHARD DAWKINS
+Length: 148915 words
+Number of unique words: 17165
+Percentage unique: 11.5%
+
+Title: To Kill a Mockingbird
+Author: Harper Lee
+Length: 99642 words
+Number of unique words: 11250
+Percentage unique: 11.3%
+
+Title: The Turner Diaries
+Author: William Luther Pierce
+Length: 92123 words
+Number of unique words: 10596
+Percentage unique: 11.5%
+
+Title: Fear and loathing in Las Vegas, and other American stories
+Author: Hunter S. Thompson
+Length: 55424 words
+Number of unique words: 8361
+Percentage unique: 15.1%
+
+Title: The system of the world
+Author: Neal Stephenson
+Length: 385414 words
+Number of unique words: 32241
+Percentage unique: 8.4%
+
+Title: Blue Mars
+Author: Kim Stanley Robinson
+Length: 267225 words
+Number of unique words: 21975
+Percentage unique: 8.2%
+
+Title: A Game of Thrones
+Author: George R. R. Martin
+Length: 295970 words
+Number of unique words: 17204
+Percentage unique: 5.8%
+
+Title: Atlas Shrugged
+Author: Ayn Rand
+Length: 568939 words
+Number of unique words: 28218
+Percentage unique: 5.0%
+
+Title: Infinite Jest
+Author: David Foster Wallace
+Length: 545913 words
+Number of unique words: 47143
+Percentage unique: 8.6%
+
+Title: Neuromancer
+Author: William Gibson
+Length: 84133 words
+Number of unique words: 11670
+Percentage unique: 13.9%
+
+Title: Freakonomics
+Author: Steven D. Levitt
+Length: 94855 words
+Number of unique words: 13903
+Percentage unique: 14.7%
+
+Title: The Dark Tower IV Wizard and Glass
+Author: Stephen King
+Length: 262686 words
+Number of unique words: 21165
+Percentage unique: 8.1%
+
+Title: A Clockwork Orange
+Author: Anthony Burgess
+Length: 59069 words
+Number of unique words: 6932
+Percentage unique: 11.7%
+
+Title: The Warrior Prophet
+Author: R. Scott Bakker
+Length: 203953 words
+Number of unique words: 17937
+Percentage unique: 8.8%
+
+Title: New Spring: The Novel
+Author: Robert Jordan
+Length: 121928 words
+Number of unique words: 10377
+Percentage unique: 8.5%
+
+Title: Fahrenheit 451
+Author: Ray Bradbury
+Length: 45897 words
+Number of unique words: 6340
+Percentage unique: 13.8%
+
+Title: Guns, Germs, and Steel
+Author: Jared Diamond
+Length: 161381 words
+Number of unique words: 14943
+Percentage unique: 9.3%
+
+Title: A Clash of Kings
+Author: George R. R. Martin
+Length: 324092 words
+Number of unique words: 19813
+Percentage unique: 6.1%
+
+Title: Naked Lunch: The Restored Text
+Author: William S. Burroughs
+Length: 69873 words
+Number of unique words: 12005
+Percentage unique: 17.2%
+
+Title: Harry Potter and the Sorcerer's Stone
+Author: J.K. Rowling
+Length: 78955 words
+Number of unique words: 8264
+Percentage unique: 10.5%
+
+Title: The Dharma bums
+Author: Jack Kerouac
+Length: 75205 words
+Number of unique words: 9281
+Percentage unique: 12.3%
+
+Title: In Defense of Food: An Eater's Manifesto
+Author: Michael Pollan
+Length: 62215 words
+Number of unique words: 9480
+Percentage unique: 15.2%
+
+Title: The Demon-Haunted World: Science as a Candle in the Dark
+Author: Carl Sagan
+Length: 142260 words
+Number of unique words: 17898
+Percentage unique: 12.6%
+
+Title: The Art of War
+Author: Sun Tzu
+Length: 54005 words
+Number of unique words: 8372
+Percentage unique: 15.5%
+
+Title: Lovecraft's Fiction Volume I, 1905-1925
+Author: Howard Phillips Lovecraft
+Length: 177418 words
+Number of unique words: 17919
+Percentage unique: 10.1%
+
+Title: The Federalist papers
+Author: Alexander Hamilton
+Length: 211836 words
+Number of unique words: 11973
+Percentage unique: 5.7%
+
+Title: For Whom the Bell Tolls
+Author: Ernest Hemingway
+Length: 174673 words
+Number of unique words: 12195
+Percentage unique: 7.0%
+
+Title: One Hundred Years of Solitude
+Author: Gabriel García Márquez
+Length: 144529 words
+Number of unique words: 11506
+Percentage unique: 8.0%
+
+Title: Harry Potter and the Half-Blood Prince
+Author: J.K. Rowling
+Length: 171986 words
+Number of unique words: 15495
+Percentage unique: 9.0%
+
+Title: The Ringworld Throne
+Author: Larry Niven
+Length: 109788 words
+Number of unique words: 11041
+Percentage unique: 10.1%
+
+Title: Candide (Barnes & Noble Classics Series)
+Author: Voltaire
+Length: 47680 words
+Number of unique words: 8323
+Percentage unique: 17.5%
+
+Title: Foundation and Earth
+Author: Isaac Asimov
+Length: 143048 words
+Number of unique words: 12841
+Percentage unique: 9.0%
+
+Title: The Restaurant at the End of the Universe
+Author: Douglas Adams
+Length: 53385 words
+Number of unique words: 8355
+Percentage unique: 15.7%
+
+Title: The Day of the Triffids
+Author: John Wyndham
+Length: 79189 words
+Number of unique words: 9593
+Percentage unique: 12.1%
+
+Title: Flatland
+Author: Edwin A. Abbott
+Length: 33779 words
+Number of unique words: 5625
+Percentage unique: 16.7%
+
+Title: Oryx and Crake: A Novel
+Author: Margaret Atwood
+Length: 102990 words
+Number of unique words: 13822
+Percentage unique: 13.4%
+
+Title: Lolita
+Author: Vladimir Nabokov
+Length: 114457 words
+Number of unique words: 18185
+Percentage unique: 15.9%
+
+Title: The Count of Monte Cristo (Unabridged Penguin)
+Author: Alexandre Dumas
+Length: 498262 words
+Number of unique words: 28037
+Percentage unique: 5.6%
+
+Title: Wheel of Time [04]: The Shadow Rising
+Author: Robert Jordan
+Length: 395806 words
+Number of unique words: 20615
+Percentage unique: 5.2%
+
+Title: The Giver
+Author: Lois Lowry
+Length: 43917 words
+Number of unique words: 5394
+Percentage unique: 12.3%
+
+Title: The Long Walk to Freedom
+Author: Nelson Mandela
+Length: 247611 words
+Number of unique words: 17391
+Percentage unique: 7.0%
+
+Title: Common Sense, the Rights of Man and Other Essential Writings of Thomas Paine
+Author: Thomas Paine
+Length: 151254 words
+Number of unique words: 12882
+Percentage unique: 8.5%
+
+Title: Of mice and men
+Author: John Steinbeck
+Length: 30645 words
+Number of unique words: 4159
+Percentage unique: 13.6%
+
+Title: Knife of Dreams
+Author: Robert Jordan
+Length: 323737 words
+Number of unique words: 19093
+Percentage unique: 5.9%
+

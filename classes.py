@@ -8,7 +8,7 @@ class Book(object):
 			self.author = props['author']
 		except KeyError:
 			self.author = "Unknown"
-
+		self.file_name=props['file_name']
 		self.total_words = props['total_words']
 		self.unique_words = props['unique_words']
 		self.duplicates = props['duplicates']
