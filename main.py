@@ -5,6 +5,7 @@ import argparse, sys
 import create_book as cb
 import glob
 import time
+import classes
 
 start = time.time()
 
@@ -40,23 +41,30 @@ start = time.time()
 # 						type=argparse.FileType('r'))
 # 	args = parser.parse_args()
 
-
 # loop over all ebooks in our catalogue:
-path = "/main_1TB/Downloads/epubs"
+path = "/main_1TB/Downloads/all_epubs"
+# path = "/Users/Jack/Dropbox/other/epubs"
 # with open("summary.txt", "a") as myfile:
 
 bp = 0.
 bt = 'Unknown'
 ba = 'Unknown'
 
+bookshelf=classes.Bookshelf()
 for filename in glob.glob(path + "/*.epub"):
 
 	book = cb.create_book_instance(filename)
+	bookshelf.add_book_data(book)
+	if bookshelf.num_books%10==0:
+		print(bookshelf.num_books)
+	# print(bookshelf.total_words)
 	# print("\n")
 	# print("Title: " + book.title)
+	# print("Average word length: " + str(book.ave_word_length) + "\n")
 	# print("Author: " + book.author)
 	# print("Length: " + str(book.total_words) + " words")
-	# print("Number of unique words: {}\n".format(book.unique_words))
+	# print("Number of unique words: {}".format(book.unique_words))
+	# print("Most frequent: {}".format(book.most_frequent))
 
 	# myfile.write("Title: " + book.title + "\nAuthor: " + book.author \
 	# 	+ "\nLength: " + str(book.total_words) + " words" + \
@@ -66,23 +74,36 @@ for filename in glob.glob(path + "/*.epub"):
 
 	# print(filename)
 
-	if 100*book.unique_words/book.total_words > bp:
-		bp = 100*book.unique_words/book.total_words
-		bt = book.title
-		ba = book.author
+	# if 100*book.unique_words/book.total_words > bp:
+	# 	bp = 100*book.unique_words/book.total_words
+	# 	bt = book.title
+	# 	ba = book.author
 
-	if book.author=="Thomas Jefferson":
-		print("Title: " + book.title)
-		print("Author: " + book.author)
-		print("Length: " + str(book.total_words) + " words")
-		print("Number of unique words: {}\n".format(book.unique_words))
+	# if book.most_frequent!='the':
+	# 	print(book.title)
+	# 	print(book.most_frequent)
 
+n=1000
+most_frequent = bookshelf.n_most_frequent_words(n)
 
-print("\n")
-print("Highest percentage of unique words in {0} by {1}, at {2}".format(bt, ba, bp))
+with open("bookshelf.txt", "w") as myfile:
+	myfile.write(	"Number of books: " + str(bookshelf.num_books) + \
+					"\nAverage book length: {:.2f} words".format(bookshelf.ave_words_per_book) + \
+					"\nTotal length: " + str(bookshelf.total_words) + " words" + \
+					"\nUnique words: " + str(bookshelf.unique_words)
+				)
+	myfile.write("\n\n~~~~\nThe {} most frequent words:\n~~~~\n".format(n))
 
+	# print(most_frequent)
+	myfile.write("\nRank\t\tWord\t\t\tNumber of occurences\n\n")
+	for i, pair in enumerate(most_frequent): 
+		# print("{0}.\t\t\t{1}\t\t\t{2}\n".format(i+1, pair[1], pair[0])	)
+		# myfile.write(pair[1] + " " + str(len(pair[1]))+"\n")
+		myfile.write("{0}.\t\t\t{1}\t\t\t{2}\n".format(i+1, pair[1], pair[0]))
+
+# print(most_frequent[5])
+# print(most_frequent)
 end =time.time()
 runtime=end-start
-
-print("Run time: " + str(runtime))
+print("Run time: {:.2f}s".format(runtime))
 print("done")

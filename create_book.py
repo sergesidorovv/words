@@ -7,6 +7,7 @@ from lxml import etree
 import classes
 from shutil import copyfile
 
+
 # find ./ -name *.epub -exec cp -prv '{}' './epubs/' ';'
 
 def create_book_instance(filename):
@@ -35,26 +36,57 @@ def create_book_instance(filename):
 
 	# start getting the list of words in the book
 	all_words=list()
+
+	# since we will loop over every word, let's create a dictionary at the same time:
+	# each key will be a unique word, and we increment the value every time we
+	# find that word:
+
+	# key: a unique word; value: number of times word appears in book
+	num_repetitions=dict()
+	
 	with open(txt_path, "r", encoding="utf-8") as book:
 		for line in book:
-			# split on spaces and strip trailing punctuation
-			line = line.split(" ")
-			words_in_line = [word.strip(".,!?'\t\n").lower() for word in line]
-			if words_in_line!=['']:
-				all_words.append(words_in_line)		# append the words to our list,
-													# unless the line was blank
 
-	# 'all_words' is a list of (sub-)lists. We just want a list of strings
-	# [each string being a (non-unqiue) word in the book], so we flatten it 
-	# as follows:
-	temp=list()
-	for sublist in all_words:
-	    for item in sublist:
-	        temp.append(item)
-	all_words=temp
+			# split on spaces and strip trailing punctuation:
+
+			line = line.split(" ")
+			bad_chars = "\"-”’“‘`'.•/*=+,…;:!?—><~()[]}{$#@%"
+			for word in line:
+
+				# Strip whitespace and make all characters lowercase				
+				word=word.strip().lower()
+				
+				# strip other unwanted characters:
+				word=word.strip(bad_chars)
+				# word=''.join([char if ord(char) < 128 else '' for char in word]))
+
+				# if 'word' is empty after stripping chars, skip to next item in for loop
+				if word=='':
+					continue
+				if len(word)==1 and word!='a' and word!='i':
+					continue
+
+				# otherwise, we want to add 'word' to our lists:
+				else:
+					# ...build our dictionary:
+					try:
+						# if the word is already a key in our dictionary, increment the value
+						num_repetitions[word] += 1
+					except KeyError:
+						# if 'word' is not already in our dictionary, create an entry (i.e.
+						# a key-value pair) for it.
+						num_repetitions[word] = 1
+
+					# ...and append the word to our list
+					all_words.append(word)
 
 	# remove duplicate words:
 	unique_words = set(all_words)
+
+	# find average word length
+	total_chars = sum([len(word) for word in all_words])
+	ave_word_length = total_chars/len(all_words)
+
 
 	# gather the attributes and create a 'Book' instance:
 	book_attributes=dict()
@@ -63,18 +95,28 @@ def create_book_instance(filename):
 			book_attributes[x] = metadata[x]
 		except KeyError:
 			pass
+
 	book_attributes['file_name']=short_name + ".epub"
 	book_attributes['total_words']=len(all_words)
 	book_attributes['unique_words']=len(unique_words)
 	book_attributes['duplicates']=len(all_words)-len(unique_words)
+	book_attributes['ave_word_length'] = ave_word_length
+	book_attributes['num_repetitions'] = num_repetitions
+
+	# which word appeared most frequently?
+	# 'max' takes an iterable as first argument (num_repetitions.keys()). The 'key' argument (different thing to
+	# the dictionary keys!) is given by a function which tells max() when a dictionary key should be considered
+	# the maximum:
+	# namely, when it's associated value is the maximum. This way max will return the dict key, which is what we want
+	book_attributes['most_frequent']=max(num_repetitions.keys(), key=(lambda k: num_repetitions[k]))
+
 	book=classes.Book(book_attributes)
 
 	return book
 
 
 def get_metadata(fname):
-	# Extract as much metadata as we can from the epub file
-	# Modified from:
+	# Extract as much metadata as we can from the epub file. Modified from:
 	# https://stackoverflow.com/questions/3114786/python-library-to-extract-epub-information
 	with zf.ZipFile(fname, 'r') as zip:
 
