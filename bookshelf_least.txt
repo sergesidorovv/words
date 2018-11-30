@@ -1,0 +1,6 @@
+~~~~
+The 1000 least frequent words:
+~~~~
+
+Rank	\ttWord			Number of occurences
+

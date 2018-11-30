@@ -7,12 +7,12 @@ from lxml import etree
 import classes
 from shutil import copyfile
 
-
+# Bash command to pull all epubs out of subdirectories and place in ./epubs
 # find ./ -name *.epub -exec cp -prv '{}' './epubs/' ';'
 
 def create_book_instance(filename):
 
-	# note: this function will remove spaces from filenames in your epub directory
+	# remove spaces and full stops from filenames:
 	new_filename=filename.replace(" ", "_")
 	new_filename=new_filename.replace(".", "-")[:-5] + ".epub"
 	
@@ -30,7 +30,8 @@ def create_book_instance(filename):
 	if not os.path.exists(txt_path):
 		print("Converting {}.epub to .txt".format(short_name))
 		bashCommand = "ebook-convert {0} {1}".format(filename, txt_path)
-		# we have to pipe the command to bash (i.e. to the terminal) to execute it:
+		# we have to pipe the command to bash to execute it:
+		# (not sure why we need the split but we do)
 		process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
 		output, error = process.communicate()
 
@@ -42,12 +43,17 @@ def create_book_instance(filename):
 	# find that word:
 
 	# key: a unique word; value: number of times word appears in book
+
+	# This is apparently a common technique in natural language processing,
+	# called a "bag of words": https://en.wikipedia.org/wiki/Bag-of-words_model
 	num_repetitions=dict()
 	
 	with open(txt_path, "r", encoding="utf-8") as book:
 		for line in book:
 
 			# split on spaces and strip trailing punctuation:
+			# (this is called tokenization:
+			# https://en.wikipedia.org/wiki/Lexical_analysis#Tokenization)
 
 			line = line.split(" ")
 			bad_chars = "\"-”’“‘`'.•/*=+,…;:!?—><~()[]}{$#@%"
@@ -58,7 +64,6 @@ def create_book_instance(filename):
 				
 				# strip other unwanted characters:
 				word=word.strip(bad_chars)
-				# word=''.join([char if ord(char) < 128 else '' for char in word]))
 
 				# if 'word' is empty after stripping chars, skip to next item in for loop
 				if word=='':

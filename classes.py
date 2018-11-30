@@ -54,3 +54,8 @@ class Bookshelf(object):
 		most_frequent = tuple()
 		most_frequent = sorted([(value, key) for (key,value) in self.num_repetitions.items()], reverse=True)
 		return most_frequent[:n]
+
+	def n_least_frequent_words(self, n):
+		most_frequent = tuple()
+		most_frequent = sorted([(value, key) for (key,value) in self.num_repetitions.items()], reverse=False)
+		return most_frequent[:n]

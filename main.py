@@ -9,20 +9,23 @@ import classes
 
 start = time.time()
 
-# looks good https://en.wikipedia.org/wiki/Cloud_Atlas_(novel)
+# could be good https://en.wikipedia.org/wiki/Cloud_Atlas_(novel)
 
 # # #
 
 # To include:
-# - compute average word length
-# - number of times each word appears in book
-# - Create set of 1000 most common words
+
+# - compute average word length 	done
+# - number of times each word appears in book 	done
+# - Create set of 1000 most common words 	done
+
+# - compute average sentence length
 # - check word in common_words for every word in book,
 #	and find % which are uncommon.
 #	seems like word in set should be fast enough:
 #	https://stackoverflow.com/questions/5993621/fastest-way-to-search-a-list-in-python
 # - characterise book complexity based on number (or %) of unique words,
-#	average word length, % words which are uncommon.
+#	average word length, % words which are uncommon etc.
 # - scifi probably scores high on last test.
 
 
@@ -42,8 +45,8 @@ start = time.time()
 # 	args = parser.parse_args()
 
 # loop over all ebooks in our catalogue:
-path = "/main_1TB/Downloads/all_epubs"
-# path = "/Users/Jack/Dropbox/other/epubs"
+# path = "/main_1TB/Downloads/all_epubs"
+path = "/Users/Jack/Dropbox/other/all_epubs"
 # with open("summary.txt", "a") as myfile:
 
 bp = 0.
@@ -84,18 +87,18 @@ for filename in glob.glob(path + "/*.epub"):
 	# 	print(book.most_frequent)
 
 n=1000
-most_frequent = bookshelf.n_most_frequent_words(n)
+most_frequent = bookshelf.n_least_frequent_words(n)
 
-with open("bookshelf.txt", "w") as myfile:
-	myfile.write(	"Number of books: " + str(bookshelf.num_books) + \
-					"\nAverage book length: {:.2f} words".format(bookshelf.ave_words_per_book) + \
-					"\nTotal length: " + str(bookshelf.total_words) + " words" + \
-					"\nUnique words: " + str(bookshelf.unique_words)
-				)
-	myfile.write("\n\n~~~~\nThe {} most frequent words:\n~~~~\n".format(n))
+with open("bookshelf_least.txt", "w") as myfile:
+	# myfile.write(	"Number of books: " + str(bookshelf.num_books) + \
+	# 				"\nAverage book length: {:.2f} words".format(bookshelf.ave_words_per_book) + \
+	# 				"\nTotal length: " + str(bookshelf.total_words) + " words" + \
+	# 				"\nUnique words: " + str(bookshelf.unique_words)
+				# )
+	myfile.write("~~~~\nThe {} least frequent words:\n~~~~\n".format(n))
 
 	# print(most_frequent)
-	myfile.write("\nRank\t\tWord\t\t\tNumber of occurences\n\n")
+	myfile.write("\nRank\t\\ttWord\t\t\tNumber of occurences\n\n")
 	for i, pair in enumerate(most_frequent): 
 		# print("{0}.\t\t\t{1}\t\t\t{2}\n".format(i+1, pair[1], pair[0])	)
 		# myfile.write(pair[1] + " " + str(len(pair[1]))+"\n")
