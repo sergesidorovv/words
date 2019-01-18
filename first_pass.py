@@ -14,7 +14,7 @@ list_of_words = ['call', 'me', 'ishmael', 'when'] # etc. (many more entries in t
 
 # then we can access a word like this:
 
-print(list_of_words[2])    # will print 'ishmael'.
+print(list_of_words[2])    # prints 'ishmael'.
 						   # python indexing starts at 0, so list_of_words[0]
 						   # selects the first element in the list ('call')
 
@@ -98,12 +98,15 @@ print("\nNumber of duplicates removed:\n")
 print(len(list_of_words)-len(unique_words))
 
 # the other thing we might want to do here is work out how many times each
-# duplicate word is repeated. Or maybe that's not very interesting...?
+# duplicate word is repeated.
 
 # i think that's it. Next we want to try it on a real book.
+# You can take over here. Below I'll give some hints for how to do various
+# things and some rough ideas on the structure of one possible program. Read the rest of this file
+# before you start.
+
 # We need to open the book then iterate over each line in it.
 # you can do something like:
-
 
 # filename = "path/to/book.epub"	# need quotation marks (to make it a string)
 
@@ -117,14 +120,16 @@ print(len(list_of_words)-len(unique_words))
 # than I thought. In the end I chose to pipe a command to the terminal which calls
 # calibre. calibre has a nice function "ebook-convert" which converts epub to txt
 # so that we can just read it in in a simple way.
-# There are other soutions but these seemed easiest. If you're stuck here ask me
-# because it's slightly tricky.
+# There are other soutions but these seemed easiest. If you can't work out how
+# to convert epub -> text, look at how I do it in the file "create_book.py"
+# after the comment "# Use the Calibre program..."
 
 
-# Now you loop through the lines of text in the book:
+# Once you've opened the text file
+# you loop through the lines of text in the book:
 
 # for line in book:
-#	/do stuff/
+#	/do stuff like splitting and stripping the text, adding to lists etc/
 # book.close()		# remember to close the file once you have extracted the 
 					# words in a list (or set) so it doesn't keep using your ram.
 					# important if you're going to loop over 100s of books.

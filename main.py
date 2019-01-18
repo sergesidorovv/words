@@ -9,7 +9,6 @@ import classes
 
 start = time.time()
 
-# could be good https://en.wikipedia.org/wiki/Cloud_Atlas_(novel)
 
 # # #
 
@@ -22,11 +21,13 @@ start = time.time()
 # - compute average sentence length
 # - check word in common_words for every word in book,
 #	and find % which are uncommon.
-#	seems like word in set should be fast enough:
+#	'word in set' should be fast enough:
 #	https://stackoverflow.com/questions/5993621/fastest-way-to-search-a-list-in-python
 # - characterise book complexity based on number (or %) of unique words,
 #	average word length, % words which are uncommon etc.
+
 # - scifi probably scores high on last test.
+# # # if we can assign genres to books somehow (pull from internet, or a neural network?) then we can look at stuff like that.
 
 
 # if len(sys.argv) < 2:

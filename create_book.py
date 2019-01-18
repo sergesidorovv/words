@@ -7,7 +7,7 @@ from lxml import etree
 import classes
 from shutil import copyfile
 
-# Bash command to pull all epubs out of subdirectories and place in ./epubs
+# Bash command to pull all epubs out of subdirectories and place in ./epubs:
 # find ./ -name *.epub -exec cp -prv '{}' './epubs/' ';'
 
 def create_book_instance(filename):
@@ -44,9 +44,10 @@ def create_book_instance(filename):
 
 	# key: a unique word; value: number of times word appears in book
 
+	num_repetitions=dict()
+
 	# This is apparently a common technique in natural language processing,
 	# called a "bag of words": https://en.wikipedia.org/wiki/Bag-of-words_model
-	num_repetitions=dict()
 	
 	with open(txt_path, "r", encoding="utf-8") as book:
 		for line in book:
@@ -68,7 +69,7 @@ def create_book_instance(filename):
 				# if 'word' is empty after stripping chars, skip to next item in for loop
 				if word=='':
 					continue
-				if len(word)==1 and word!='a' and word!='i':
+				elif len(word)==1 and word!='a' and word!='i':
 					continue
 
 				# otherwise, we want to add 'word' to our lists:
