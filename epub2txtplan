@@ -1,0 +1,45 @@
+
+Programming an epub to txt application
+
+An Epub file is made up of html pages which are zipped up
+
+1.
+Extract epub
+
+2.
+Remove all folders
+
+3.
+search and open file *.opf
+
+This file contains a list of all the files in the zip folder, 
+and the order they are meant to be read in.
+It also contains metadata detailing: 
+title,identifier,subject,creator,contributor,description,publisher,language
+
+4.
+find the term <manifest>
+record <item id= & href= pairs
+discount anything before the "/" in the href location because we removed the folder structures
+
+5.
+find the term <spine
+The idref's are listed in order of reading.
+so get convertor to find "id" after "idref="
+and then use the "href=" pair name to find file to convert first
+
+6.
+delete everything between these two characters "<" & ">"
+
+7.
+repeat for all other html files
+
+8.
+combine files to one txt file
+
+
+
+
+
+
+
